@@ -9,10 +9,12 @@
     
   }
   body {
-    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-family: "Open sans", Arial, Helvetica, sans-serif;
     background: rgb(5,5,24);
     background: linear-gradient(90deg, rgba(5,5,24,1) 0%, rgb(14, 5, 24) 100%);
   }
+  /* NAV */
+
  .logo-mp {
     width: 60px;
   }
@@ -21,4 +23,27 @@
   }
   .bi:hover {
     color: #ff7a21 !important;
+  }
+  .nav-link:hover {
+    color: #ff7a21 !important;
+    text-shadow: 2px 1px 10px #ff5938;
+  }
+
+  /* HEADER */
+  .img-mp {
+    max-width: 450px;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 900 !important;
+    letter-spacing: -2px;
+  }
+  .btn-danger {
+    background-color: #ff5938 !important;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+  }
+  .btn-danger:hover {
+    background-color: #ff7a21 !important;
   }
